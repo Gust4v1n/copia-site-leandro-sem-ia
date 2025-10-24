@@ -1,0 +1,209 @@
+@import url('https://fonts.cdnfonts.com/css/courier-now');
+
+body{
+    background: #010b84;
+    margin: 0px;
+}
+
+.navegacaoteste{
+    background: #bbbbbb;
+}
+
+.divheader{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    background: #bbbbbb;
+    justify-content: center;
+    align-items: center;
+}
+
+.fonteprincipal{
+    font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 100;
+    color: #DFE9EB;
+}
+
+
+.divpraotitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 365px;
+    background: transparent;
+}
+
+.divpraotitulo .fonteprincipal{
+    color: #000084;
+}
+
+.divpraotitulo:hover .fonteprincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 365px;
+    background: black;
+    color: #bbbbbb;
+}
+
+
+.div-principal{
+    display: flex;
+    width: 800px;
+    justify-self: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.div-prontocomecar{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background: transparent;
+    border: 3px solid;
+    border-color: #bbbbbb;
+    flex-direction: row;
+}
+
+.div-prontocomecar .fonteprincipal-branco{
+    margin-left: 20px;
+    color: #DFE9EB;
+    text-rendering: optimizelegibility;
+    font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-style:normal;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.button-mudarcor{
+    margin-left: 15px;
+    background: #001be0;
+    padding: 5px;
+    font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-style:normal;
+    font-weight: 100;
+    font-size: 18px;
+    color: #bbbbbb;
+    cursor: pointer;;
+}
+
+.button-mudarcor:hover{
+    color: white;
+    background: blue;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    flex-direction: column;
+    margin-left: -20px;
+    height: 270px;
+    width: 300px;
+    background: #bbbbbb;
+    padding: 10px;  
+    box-sizing: border-box; 
+    box-shadow: 10px 10px 2px 5px black;
+    position: relative;
+}
+
+.nav-bar::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border: 2px solid black;  
+}
+
+
+.nav-bar li {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-style:normal;
+    font-weight: 100;
+    font-size: 18px;
+    z-index: 0;
+}
+
+.nav-bar li:hover {
+    margin-right: 10px;
+    background: black;
+    color: #bbbbbb;
+    cursor: pointer;
+} 
+
+.section-rowler{
+    display: flex;
+    flex-direction: row;
+}
+
+.div-seja-bem-vindo{
+    display: flex;
+    align-items: center;
+    background: #00aaaa;
+    height: 70px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 35px;
+    font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-style:normal;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.div-seja-bem-vindo .fonteprincipal{
+    margin: 20px;
+    color: #000084;
+
+}
+
+.div-seja-bem-vindo:hover{
+    background: yellow;
+}
+
+.div-columner{
+    width: 90%;
+}
+
+.div-website-evolucao{
+    
+    display: flex;
+    align-items: center;
+    width: 99%;
+    height: 45px;
+    background: transparent;
+    border: #bbbbbb solid;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.div-website-evolucao .fonteprincipal{
+    margin-left: 20px;
+    font-weight: 100;
+    color: #DFE9EB;
+}
+
+.another-columner{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.megamen-img{
+    height: 200px;
+    width: 250px;
+    align-self: center;
+}
+
+.another-columner .fonteprincipal{
+    align-self: center;
+    color: #bbbbbb;
+}
