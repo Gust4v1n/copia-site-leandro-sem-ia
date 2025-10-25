@@ -10,12 +10,38 @@ body{
 }
 
 .divheader{
+    position: relative;
     display: flex;
     height: 40px;
     width: 100%;
     background: #bbbbbb;
     justify-content: center;
     align-items: center;
+}
+
+.divheaderanimacao{
+    display: flex;
+    height: 0px;
+    width: 100%;
+    background: #bbbbbb;
+    justify-content: left;
+    align-items: center;
+    transition: 0.4s ease-in-out;
+}
+
+.divheaderanimacao p{
+    display: flex;
+    color: black;
+    text-align: center;
+    width: 100%;
+    margin-top: -30px;
+    padding-bottom: 2px;
+    padding-top: 7px;
+}
+
+.divheaderanimacao p:hover{
+    background: black;
+    color: #bbbbbb;
 }
 
 .fonteprincipal{
@@ -34,6 +60,18 @@ body{
     height: 100%;
     width: 365px;
     background: transparent;
+    transition: 0.2s ease-in-out;
+}
+
+
+.divpraotitulomaior{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 365px;
+    background: transparent;
+    transition: 0.2s ease-in-out;
 }
 
 .divpraotitulo .fonteprincipal{
@@ -300,9 +338,32 @@ a:hover{
     color: #bbbbbb;
 }
 
-.bottomli a{
-         font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
-    font-style:normal;
-    font-weight: 100;
-    font-size: 18px;
+.divinferiorrowler{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.divinferiorrowler p{
+    position: absolute;
+    top: -19px;
+    right: -120px;
+    color: #010b84;
+    transition: 0.2s ease;
+}
+
+.divinferiorrowler p:hover{
+    transform: scale(1.05);
+    color: red;
+    cursor: default;
+}
+
+.button-minimize{
+    position: absolute;
+    right: 30px;
+}
+
+.ativo{
+    height: 70px;
+
 }
