@@ -55,6 +55,7 @@ body{
     display: flex;
     width: 800px;
     justify-self: center;
+    align-items: center;
     margin-top: 20px;
     flex-direction: column;
 }
@@ -63,7 +64,7 @@ body{
     display: flex;
     align-items: center;
     height: 40px;
-    width: 100%;
+    width: 1000px;
     background: transparent;
     border: 3px solid;
     border-color: #bbbbbb;
@@ -206,4 +207,102 @@ body{
 .another-columner .fonteprincipal{
     align-self: center;
     color: #bbbbbb;
+}
+
+.input-secretcode{
+    display: flex;
+    align-self: center;
+    background: #6767a3;
+    width: 230px;
+    border: 2px solid black;
+}
+
+.input-secretcode:hover{
+    background: #7788fc;
+    color: white;
+}
+
+.button-acessar{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background: #6767a3;
+    margin-top: 10px;
+    width: 85px;
+    height: 25px;
+    margin-bottom: 30px;
+    font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-style:normal;
+    font-weight: 100;
+    font-size: 18px;
+
+}
+
+.button-acessar:hover{
+    background: #7788fc;
+    color: white;
+    cursor: pointer;
+}
+
+.texto-pequeno{
+    display: flex;
+    font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-style:normal;
+    font-weight: 100;
+    font-size: 18px;
+    color: #bbbbbb;
+    margin-left: 35px;
+    unicode-bidi: isolate;
+    width: 700px;
+}
+
+a{
+    color: yellow;
+    text-decoration: none;
+}
+
+a:hover{
+    background: #aa5500;
+}
+
+.section-inferior{
+    position: relative;
+}
+
+.imageporygon{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    opacity: 90%;
+}
+
+.section-inferior-realmenteinferior{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    margin-left: -100px;
+     font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-style:normal;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.section-inferior-realmenteinferior h2{
+    color: #bbbbbb;
+    
+}
+
+.bottomli{
+    list-style-type: none;
+    margin-bottom: 40px;
+    color: #bbbbbb;
+}
+
+.bottomli a{
+         font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-style:normal;
+    font-weight: 100;
+    font-size: 18px;
 }
